@@ -21,6 +21,7 @@ STD_VFILES = \
 	$(SRCCOQLIB)/theories/Unicode/Utf8.v \
 	$(SRCCOQLIB)/theories/Program/Tactics.v \
 	$(SRCCOQLIB)/theories/Program/Basics.v \
+	$(SRCCOQLIB)/theories/Classes/Init.v \
 	$(SRCCOQLIB)/theories/Classes/CMorphisms.v \
         $(SRCCOQLIB)/theories/Classes/CRelationClasses.v \
         $(SRCCOQLIB)/theories/Relations/Relation_Definitions.v \
