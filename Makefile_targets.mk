@@ -19,7 +19,12 @@ STD_VFILES = \
 	$(SRCCOQLIB)/theories/Bool/Bool.v \
 	$(SRCCOQLIB)/theories/Unicode/Utf8_core.v \
 	$(SRCCOQLIB)/theories/Unicode/Utf8.v \
-	$(SRCCOQLIB)/theories/Program/Tactics.v
+	$(SRCCOQLIB)/theories/Program/Tactics.v \
+	$(SRCCOQLIB)/theories/Program/Basics.v \
+	$(SRCCOQLIB)/theories/Classes/CMorphisms.v \
+        $(SRCCOQLIB)/theories/Classes/CRelationClasses.v \
+        $(SRCCOQLIB)/theories/Relations/Relation_Definitions.v \
+        $(SRCCOQLIB)/theories/Setoids/Setoid.v
 
 CORE_VFILES = \
 	$(srcdir)/theories/Basics/Overture.v \
